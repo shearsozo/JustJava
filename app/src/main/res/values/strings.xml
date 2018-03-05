@@ -1,0 +1,36 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="name_input">Your name</string>
+    <string name="topping">Toppings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="header1">quantity</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="header2">Order Summary</string>
+    <string name="number">1</string>
+    <string name="total">$5</string>
+    <string name="order">order</string>
+
+    <!-- Add whipped cream message for the order summary. [CHAR LIMIT =NONE] -->
+    <string name="order_summary_whipped_cream">Add whipped cream? </string>
+
+    <!-- Add chocolate message for the order summary. [CHAR LIMIT =NONE] -->
+    <string name="order_summary_chocolate">Add chocolate? </string>
+
+    <!-- Quantity message for the order summary. [CHAR LIMIT =NONE] -->
+    <string name="order_summary_quantity">Quantity: </string>
+
+    <!-- total message for the order summary. [CHAR LIMIT =NONE] -->
+    <string name="order_summary_total">Total: $</string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT =NONE] -->
+    <string name="thank_you">Thank you!</string>
+
+    <!--
+        Name for the order summary. It will be shown in the format of "Name: Amy" where
+        Amy is the user's name. [CHAR LIMIT=NONE]
+        -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+</resources>
